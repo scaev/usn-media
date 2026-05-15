@@ -13,6 +13,20 @@ export const metadata: Metadata = {
   title: "USN Media — Dijital Pazarlama & Yaratıcı Ajans",
   description:
     "Türk pazarında markanızı zirveye taşıyoruz. Marka kimliği, web tasarım, sosyal medya yönetimi ve motion grafik hizmetleri.",
+  openGraph: {
+    title: "USN Media — Dijital Pazarlama & Yaratıcı Ajans",
+    description:
+      "Türk pazarında markanızı zirveye taşıyoruz. Marka kimliği, web tasarım, sosyal medya ve AI UGC üretimi.",
+    url: "https://www.usn.media",
+    images: [{ url: "/logo.png" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "USN Media — Dijital Pazarlama & Yaratıcı Ajans",
+    description:
+      "Türk pazarında markanızı zirveye taşıyoruz. Marka kimliği, web tasarım, sosyal medya ve AI UGC üretimi.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function RootLayout({

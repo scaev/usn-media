@@ -48,6 +48,7 @@ export default function Contact() {
           email: form.email,
           title: form.title,
           message: `${form.message}\n\nBütçe Aralığı: ${form.budget}`,
+          time: new Date().toLocaleString('tr-TR'),
         },
         "kzd2LJ4KXsBl9xCM5"
       );

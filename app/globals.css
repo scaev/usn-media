@@ -31,13 +31,6 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (pointer: fine) {
-  *,
-  *:hover {
-    cursor: none !important;
-  }
-}
-
 body {
   background: #000000;
   color: var(--foreground);

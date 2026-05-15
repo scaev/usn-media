@@ -39,16 +39,15 @@ export default function Contact() {
     setSending(true);
     setError("");
     try {
-      emailjs.init("kzd2LJ4KXsBl9xCM5");
       await emailjs.send(
         "service_3p1p9ub",
-        "template_hyIdo7j",
+        "template_qi72fn8",
         {
           name: form.name,
           email: form.email,
           title: form.title,
-          message: `${form.message}\n\nBütçe Aralığı: ${form.budget}`,
-          time: new Date().toLocaleString('tr-TR'),
+          message: form.message,
+          budget: form.budget,
         },
         "kzd2LJ4KXsBl9xCM5"
       );
